@@ -50,58 +50,55 @@
     <main>
         <section>
             <article>
-                <div class="fcf-body w-75 mx-auto m-5">
-
-                    <div id="fcf-form">
-                    <h3 class="fcf-h3">Contact</h3>
-                    
-                    <div class="locationText">
-                      <div>
-                        Effnerstrasse 18
-                        85764 Oberschleissheim
-                      </div>
-                      <div>
-                        Museumsinsel 1
-                        80538 Munich
-                      </div>
-                      <div>
-                        Am Bavariapark 5
-                        80339 Munich
-                      </div>
+              <div class="card w-75 mx-auto m-4" id="fcf-form">
+                <h3 class="fcf-h3 m-4">Contact</h3>
+                <div class="contactDiv">
+                  <div class="locationText">
+                    <div>
+                      Effnerstrasse 18
+                      85764 Oberschleissheim
                     </div>
-
-                    <div class="locationMap">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2656.98656769483!2d11.551460269900055!3d48.24538601259777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7111ca98b217%3A0x13f61613d5c094c9!2sDeutsches%20Museum%20Flugwerft%20Schleissheim!5e0!3m2!1ses-419!2sar!4v1669075142095!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                      Museumsinsel 1
+                      80538 Munich
                     </div>
-                
-                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                    <div>
+                      Am Bavariapark 5
+                      80339 Munich
+                    </div>
+                  </div>
+                  <div class="locationMap">
+                    <img src="../img/map.png" alt="">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2656.98656769483!2d11.551460269900055!3d48.24538601259777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7111ca98b217%3A0x13f61613d5c094c9!2sDeutsches%20Museum%20Flugwerft%20Schleissheim!5e0!3m2!1ses-419!2sar!4v1669075142095!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+                <form id="fcf-form-id" class="fcf-form-class m-4" method="post" action="contact-form-process.php">
                         
-                        <div class="fcf-form-group">
-                            <label for="Name" class="fcf-label">Your name</label>
-                            <div class="fcf-input-group">
-                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                            </div>
-                        </div>
-                
-                        <div class="fcf-form-group">
-                            <label for="Email" class="fcf-label">Your email address</label>
-                            <div class="fcf-input-group">
-                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                            </div>
-                        </div>
-                
-                        <div class="fcf-form-group">
-                            <label for="Message" class="fcf-label">Your message</label>
-                            <div class="fcf-input-group">
-                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                            </div>
-                        </div>
-                
-                        <div class="fcf-form-group">
-                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-                        </div>
-                    </form>
-                    </div>
+                  <div class="fcf-form-group">
+                      <label for="Name" class="fcf-label">Your name</label>
+                      <div class="fcf-input-group">
+                          <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <label for="Email" class="fcf-label">Your email address</label>
+                      <div class="fcf-input-group">
+                          <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <label for="Message" class="fcf-label">Your message</label>
+                      <div class="fcf-input-group">
+                          <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                  </div>
+                </form>
             </article>
         </section>
     </main>

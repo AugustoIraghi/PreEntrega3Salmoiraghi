@@ -1,9 +1,9 @@
-
-
-
 *,li, ul, div, main, section, article, nav, header, img, footer{
     padding: 0;
     margin: 0;
+}
+ul{
+    list-style: none;
 }
 .wallpaper{
     position: absolute;
@@ -76,4 +76,9 @@ footer {
 footer li{
     display: inline-block;
     margin: 0px 20px;
-}    
+}
+@media screen and (min-height: 800px) {
+    .indexFooter{
+        position: absolute
+    }
+}
