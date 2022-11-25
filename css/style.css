@@ -124,11 +124,10 @@ footer li {
   object-fit: contain;
 }
 
-@media screen and (max-height: 800px) {
-  .servicesFooter {
-    position: block;
-  }
+.tableM {
+  margin: 10vh;
 }
+
 .contactDiv {
   display: flex;
   justify-content: center;
