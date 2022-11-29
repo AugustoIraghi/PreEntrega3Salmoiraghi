@@ -164,6 +164,10 @@ footer li {
     display: none;
   }
 }
+button {
+  padding: 5px;
+}
+
 .reviewCar {
   width: 150px;
   height: 150px;
